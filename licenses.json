@@ -1,0 +1,17 @@
+{
+  "name": "ebook-licensing-backend",
+  "version": "1.0.0",
+  "description": "Backend for generating and validating eBook licenses",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "uuid": "^10.0.0"
+  }
+}
