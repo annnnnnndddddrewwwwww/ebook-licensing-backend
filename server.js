@@ -12,8 +12,7 @@ const PORT = process.env.PORT || 3000; // Usa el puerto de Render o 3000 localme
 const allowedOrigins = [
     'http://localhost:5500', // Para desarrollo local con Live Server
     'http://127.0.0.1:5500',  // Otra posible dirección de Live Server
-    'https://tu-dominio-frontend.onrender.com', // **¡Reemplaza con el dominio de tu frontend en Render!**
-    'https://ebook-frontend-xyz.onrender.com' // Si tu frontend también está en Render, ejemplo
+    'https://ebook-licensing-backend.onrender.com', // **¡Reemplaza con el dominio de tu frontend en Render!**
 ];
 
 app.use(cors({
